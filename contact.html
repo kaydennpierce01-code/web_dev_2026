@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Kayden Pierce">
-    <meta name="description" content="A sample website with headings, links, and a table of contents">
-    <meta name="keywords" content="website, HTML, navigation, headings">
-    <title>Sample Website</title>
+    <meta name="description" content="Contact information for Kayden Pierce">
+    <title>Contact | Kayden Pierce</title>
 </head>
+
 <body>
     <header>
-        <h1>Navigation</h1>
+        <h1>Contact Information</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -21,26 +21,81 @@
     </header>
 
     <main>
-        <h1>Welcome to My Sample Page</h1>
+        <section>
+            <h2>About This Page</h2>
+            <p>
+                This page shows how contact information can be organized using semantic HTML.
+                Instead of using layout tricks, the information is placed inside a table because
+                it represents structured data. Each row shows a different way to contact me.
+            </p>
 
-        <h2>Table of Contents</h2>
-        <ul>
-            <li><a href="#subtitle1">Subtitle 1</a></li>
-            <li><a href="#subtitle2">Subtitle 2</a></li>
-            <li><a href="#subtitle3">Subtitle 3</a></li>
-        </ul>
+            <p>
+                If this website were expanded in the future, this page would include a contact form
+                so visitors could send messages directly. For this assignment, we are focusing on
+                structure and meaning rather than building a working form.
+            </p>
+        </section>
 
-        <h2 id="subtitle1">Subtitle 1</h2>
-        <p>This section contains introductory content. You can add text here about your topic.</p>
-        <p>Use paragraphs to break up ideas and make it readable.</p>
+        <section>
+            <h2>Ways to Reach Me</h2>
 
-        <h2 id="subtitle2">Subtitle 2</h2>
-        <p>Here is some more information for the second section. You can describe details or provide examples.</p>
-        <p>Keep content concise and organized for clarity.</p>
+            <table>
+                <caption>Contact Methods for Kayden Pierce</caption>
 
-        <h2 id="subtitle3">Subtitle 3</h2>
-        <p>The third section can summarize or provide additional links and references.</p>
-        <p>Remember to update links correctly; for example, visit <a href="https://www.google.com" target="_blank">Google</a> for searching the web.</p>
+                <thead>
+                    <tr>
+                        <th scope="col">Category</th>
+                        <th scope="col">Contact Information</th>
+                        <th scope="col">When to Use</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">School / Work Email</th>
+                        <td>kaydennpierce01@uky.edu</td>
+                        <td>Best for school or professional communication</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Personal Email</th>
+                        <td>kaydennpierce01@gmail.com</td>
+                        <td>General questions or personal contact</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Personal Phone</th>
+                        <td>502-220-2950</td>
+                        <td>Direct contact when needed</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Work Phone</th>
+                        <td>(800) 928-2287</td>
+                        <td>UK Athletics related matters</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Work Address</th>
+                        <td>338 Lexington Ave, Lexington, KY 40508</td>
+                        <td>Primary workplace location</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Future Form Idea</h2>
+            <p>
+                A future version of this site could include a contact form that collects a visitor’s
+                name, email address, and message. This would make communication easier and allow users
+                to interact with the site instead of only reading information.
+            </p>
+        </section>
     </main>
+
+    <footer>
+        <p>Created by Kayden Pierce</p>
+    </footer>
 </body>
 </html>
