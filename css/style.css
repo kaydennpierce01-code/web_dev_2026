@@ -50,3 +50,41 @@ nav a:hover {
 section h2 {
   color: #003c8f;
 }
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+main {
+  width: 70%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 4px solid #0b3d91;
+  background-color: #ffffff;
+}
+
+section {
+  margin-bottom: 2rem;
+  padding: 1.25rem;
+  border-left: 6px solid #1e6fff;
+  background-color: #f4f8ff;
+}
+
+p {
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+.parent-box {
+  width: 300px;
+  margin-top: 1rem;
+  border: 3px solid #0a2a66;
+}
+
+.child-box {
+  width: 100%;
+  padding: 20px;
+  border: 3px solid #154cba;
+  background-color: #dbe9ff;
+  box-sizing: border-box;
+}
