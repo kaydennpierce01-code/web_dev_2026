@@ -1,25 +1,36 @@
+html {
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 body {
   background-color: #cacbcc;
   color: #0653d6;
   font-size: 1rem;
   line-height: 1.6;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
   color: #0a2a66;
   font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 h2 {
   color: #154cba;
   font-size: 1.6rem;
+  font-weight: 600;
 }
 
 p {
   font-size: 1rem;
   color: #123a73;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  text-align: left;
+  text-indent: 1.5em;
 }
 
 .highlight {
@@ -28,23 +39,27 @@ p {
 }
 
 .accent {
-  color: #1e6fff;                   
-  font-size: 1.1em;                 
+  color: #1e6fff;
+  font-size: 1.1em;
+  font-weight: 600;
 }
 
 #main-header {
-  background-color: #0b3d91;      
+  background-color: #0b3d91;
   color: #ffffff;
   font-size: 2.5rem;
+  text-align: center;
 }
 
 nav a {
   color: #1a5fd0;
   font-size: 1rem;
+  text-decoration: none;
 }
 
 nav a:hover {
   color: #0a2a66;
+  text-decoration: underline;
 }
 
 section h2 {
@@ -68,11 +83,6 @@ section {
   padding: 1.25rem;
   border-left: 6px solid #1e6fff;
   background-color: #f4f8ff;
-}
-
-p {
-  margin-bottom: 1em;
-  padding: 0.5em;
 }
 
 .parent-box {
