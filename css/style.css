@@ -4,7 +4,7 @@ html {
 }
 body {
   background-color: #ffffff;
-  color: #0653d6;
+  color: #0F315A;
   font-size: 1rem;
   line-height: 1.6;
   margin: 0;
@@ -13,55 +13,56 @@ body {
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
 h1 {
-  color: #0a2a66;
+  color: #0C2F63;
   font-size: 2.2rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
 h2 {
-  color: #154cba;
+  color: #154CBA;
   font-size: 1.6rem;
   font-weight: 600;
 }
 h3 {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #003c8f;
+  color: #003C8F;
 }
 section h2 {
-  color: #003c8f;
+  color: #0C2F63;
 }
+
 p {
   font-size: 1rem;
-  color: #123a73;
+  color: #0F315A;
   margin-bottom: 1em;
   padding: 0.5em;
   text-align: left;
   text-indent: 1.25em;
 }
+
 .highlight {
-  background-color: #dbe9ff;
-  color: #082f6b;
+  background-color: #D3E3FF;
+  color: #082F6B;
 }
 .accent {
-  color: #1e6fff;
+  color: #2E7DFF;
   font-size: 1.1em;
   font-weight: 600;
 }
-#main-header {
-  background-color: #0b3d91;
+
+#main-header,
+header {
+  background-color: #0A3A78;
   color: #ffffff;
   font-size: 2.5rem;
   text-align: center;
-}
-header {
-  background-color: #0b3d91;
-  color: white;
   padding: 20px;
-  text-align: center;
 }
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -71,27 +72,30 @@ nav ul {
   margin-top: 15px;
 }
 nav a {
-  color: #1a5fd0;
+  color: #256EEA;
   font-size: 1rem;
   text-decoration: none;
 }
 nav a:hover {
-  color: #0a2a66;
+  color: #0C2F63;
   text-decoration: underline;
 }
+
 main {
   width: 70%;
   margin: 2rem auto;
   padding: 1.5rem;
-  border: 4px solid #0b3d91;
+  border: 4px solid #0A3A78;
   background-color: #ffffff;
 }
+
 section {
   margin-bottom: 2rem;
   padding: 1.25rem;
-  border-left: 6px solid #1e6fff;
-  background-color: #f4f8ff;
+  border-left: 6px solid #2E7DFF;
+  background-color: #F1F6FF;
 }
+
 .two-column {
   display: flex;
   flex-wrap: wrap;  
@@ -101,7 +105,7 @@ section {
 
 .two-column .column {
   flex: 1 1 300px;  
-  background-color: #f2f2f2;
+  background-color: #F6F8FC;
   padding: 15px;
   border-radius: 8px;
 }
@@ -109,17 +113,17 @@ section {
 .parent-box {
   width: 300px;
   margin-top: 1rem;
-  border: 3px solid #0a2a66;
+  border: 3px solid #0C2F63;
 }
 .child-box {
   width: 100%;
   padding: 20px;
-  border: 3px solid #154cba;
-  background-color: #dbe9ff;
+  border: 3px solid #154CBA;
+  background-color: #D3E3FF;
 }
 
 footer {
-  background-color: #0b3d91;
+  background-color: #0A3A78;
   color: white;
   text-align: center;
   padding: 15px;
