@@ -5,7 +5,7 @@ html {
 
 body {
   background-color: #ffffff;
-  color: #0A1A3F;
+  color: #000000;
   font-size: 1rem;
   line-height: 1.6;
   margin: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  color: #0A1A3F;
+  color: #000000;
   font-size: 2.2rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-  color: #1E6FFF;
+  color: #000000;
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -33,16 +33,16 @@ h2 {
 h3 {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #0B57A4;
+  color: #000000;
 }
 
 section h2 {
-  color: #0A1A3F;
+  color: #000000;
 }
 
 p {
   font-size: 1rem;
-  color: #0A1A3F;
+  color: #000000;
   margin-bottom: 1em;
   padding: 0.5em;
   text-align: left;
@@ -51,11 +51,11 @@ p {
 
 .highlight {
   background-color: #C8DAFF;
-  color: #0A1A3F;
+  color: #000000;
 }
 
 .accent {
-  color: #1E6FFF;
+  color: #000000;
   font-size: 1.1em;
   font-weight: 600;
 }
@@ -79,13 +79,13 @@ nav ul {
 }
 
 nav a {
-  color: #1E6FFF;
+  color: #000000;
   font-size: 1rem;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: #0A1A3F;
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -121,13 +121,13 @@ section {
 .parent-box {
   width: 300px;
   margin-top: 1rem;
-  border: 3px solid #0A1A3F;
+  border: 3px solid #000000;
 }
 
 .child-box {
   width: 100%;
   padding: 20px;
-  border: 3px solid #1E6FFF;
+  border: 3px solid #000000;
   background-color: #C8DAFF;
 }
 
