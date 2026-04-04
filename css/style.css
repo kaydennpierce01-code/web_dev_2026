@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: #E8F1FF; /* LIGHTER BLUE */
+  background-color: #E8F1FF; /* Lighter blue */
   color: #000000;
   font-size: 1rem;
   line-height: 1.6;
@@ -69,6 +69,7 @@ header {
   padding: 20px;
 }
 
+/* Jump To / Nav Links → BLACK TEXT */
 nav ul {
   list-style: none;
   padding: 0;
@@ -79,13 +80,13 @@ nav ul {
 }
 
 nav a {
-  color: #000000;
+  color: #000000; /* black */
   font-size: 1rem;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: #000000;
+  color: #000000; /* stays black on hover */
   text-decoration: underline;
 }
 
