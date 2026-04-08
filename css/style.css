@@ -1,10 +1,14 @@
+/* =======================================
+   GLOBAL STYLES
+   Controls overall font, sizing, colors
+======================================= */
 html {
   font-size: 100%;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-  background-color: #E8F1FF; 
+  background-color: #E8F1FF;
   color: #000000;
   font-size: 1rem;
   line-height: 1.6;
@@ -16,6 +20,10 @@ body {
   box-sizing: border-box;
 }
 
+/* =======================================
+   TYPOGRAPHY
+   Headings, paragraphs, text spacing
+======================================= */
 h1 {
   color: #000000;
   font-size: 2.2rem;
@@ -36,35 +44,33 @@ h3 {
   color: #000000;
 }
 
-section h2 {
-  color: #000000;
-}
-
 p {
   font-size: 1rem;
-  color: #000000;
   margin-bottom: 1em;
   padding: 0.5em;
   text-align: left;
   text-indent: 1.25em;
 }
 
+/* Highlighted text example */
 .highlight {
   background-color: #C8DAFF;
-  color: #000000;
+  color: #000;
 }
 
+/* Accent class example */
 .accent {
-  color: #000000;
+  color: #000;
   font-size: 1.1em;
   font-weight: 600;
 }
 
-#main-header,
+/* =======================================
+   HEADER + NAVIGATION
+======================================= */
 header {
   background-color: #0B57A4;
   color: #ffffff;
-  font-size: 2.5rem;
   text-align: center;
   padding: 20px;
 }
@@ -73,13 +79,14 @@ header a {
   color: #000000;
 }
 
-nav ul {
+/* Child selector requirement */
+nav > ul {
   list-style: none;
   padding: 0;
+  margin-top: 15px;
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-top: 15px;
 }
 
 nav a {
@@ -89,10 +96,12 @@ nav a {
 }
 
 nav a:hover {
-  color: #000000;
   text-decoration: underline;
 }
 
+/* =======================================
+   MAIN CONTENT AREA
+======================================= */
 main {
   width: 70%;
   margin: 2rem auto;
@@ -108,6 +117,10 @@ section {
   background-color: #E3EEFF;
 }
 
+/* =======================================
+   FLEXBOX LAYOUT
+   Used on the homepage two-column section
+======================================= */
 .two-column {
   display: flex;
   flex-wrap: wrap;
@@ -122,19 +135,53 @@ section {
   border-radius: 8px;
 }
 
+/* =======================================
+   BOX MODEL DEMO
+======================================= */
 .parent-box {
   width: 300px;
   margin-top: 1rem;
-  border: 3px solid #000000;
+  border: 3px solid #000;
 }
 
 .child-box {
   width: 100%;
   padding: 20px;
-  border: 3px solid #000000;
+  border: 3px solid #000;
   background-color: #C8DAFF;
 }
 
+/* =======================================
+   IMAGE STYLING (RESPONSIVE REQUIRED)
+======================================= */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* =======================================
+   TABLE STYLING (CONTACT PAGE)
+======================================= */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #C8DAFF;
+}
+
+/* =======================================
+   FOOTER
+======================================= */
 footer {
   background-color: #0B57A4;
   color: white;
