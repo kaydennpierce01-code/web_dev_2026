@@ -1,6 +1,5 @@
 /* =======================================
    GLOBAL STYLES
-   Controls overall font, sizing, colors
 ======================================= */
 html {
   font-size: 100%;
@@ -22,7 +21,6 @@ body {
 
 /* =======================================
    TYPOGRAPHY
-   Headings, paragraphs, text spacing
 ======================================= */
 h1 {
   color: #000000;
@@ -52,13 +50,11 @@ p {
   text-indent: 1.25em;
 }
 
-/* Highlighted text example */
 .highlight {
   background-color: #C8DAFF;
   color: #000;
 }
 
-/* Accent class example */
 .accent {
   color: #000;
   font-size: 1.1em;
@@ -69,7 +65,7 @@ p {
    HEADER + NAVIGATION
 ======================================= */
 header {
-  background-color: #0B57A4;
+  background-color: #AFCBFF;
   color: #ffffff;
   text-align: center;
   padding: 20px;
@@ -79,7 +75,6 @@ header a {
   color: #000000;
 }
 
-/* Child selector requirement */
 nav > ul {
   list-style: none;
   padding: 0;
@@ -119,7 +114,6 @@ section {
 
 /* =======================================
    FLEXBOX LAYOUT
-   Used on the homepage two-column section
 ======================================= */
 .two-column {
   display: flex;
@@ -152,7 +146,7 @@ section {
 }
 
 /* =======================================
-   IMAGE STYLING (RESPONSIVE REQUIRED)
+   IMAGE STYLING
 ======================================= */
 img {
   max-width: 100%;
@@ -161,7 +155,7 @@ img {
 }
 
 /* =======================================
-   TABLE STYLING (CONTACT PAGE)
+   TABLE STYLING
 ======================================= */
 table {
   width: 100%;
