@@ -10,55 +10,52 @@
 
     <script type="application/ld+json">
     {
-    "@context": "https://schema.org",
-    "@type": "ContactPage",
-    "name": "Contact | Kayden Pierce",
-    "description": "Contact information page for Kayden Pierce, including email, phone numbers, and workplace details.",
-    "url": "https://kaydennpierce01-code.github.io/web_dev_2026/contact.html",
-    "author": {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "@id": "https://kaydennpierce01-code.github.io/web_dev_2026/contact.html#contact",
+      "name": "Contact | Kayden Pierce",
+      "description": "Contact information page for Kayden Pierce.",
+      "url": "https://kaydennpierce01-code.github.io/web_dev_2026/contact.html",
+
+      "mainEntity": {
         "@type": "Person",
+        "@id": "https://kaydennpierce01-code.github.io/web_dev_2026/#kayden",
         "name": "Kayden Pierce",
-        "email": "kaydennpierce01@uky.edu",
-        "telephone": "502-220-2950"
-    },
-    "mainEntity": {
-        "@type": "Organization",
-        "name": "UK Athletics",
-        "address": {
+        "email": "mailto:kaydennpierce01@uky.edu",
+        "telephone": "+1-502-220-2950",
+
+        "worksFor": {
+          "@type": "Organization",
+          "name": "UK Athletics",
+          "telephone": "+1-800-928-2287",
+          "address": {
             "@type": "PostalAddress",
             "streetAddress": "338 Lexington Ave",
             "addressLocality": "Lexington",
             "addressRegion": "KY",
             "postalCode": "40508",
             "addressCountry": "US"
-        }
-    },
-    "contactPoint": [
-        {
-            "@type": "ContactPoint",
-            "contactType": "school/work email",
-            "email": "kaydennpierce01@uky.edu"
+          }
         },
-        {
+
+        "contactPoint": [
+          {
             "@type": "ContactPoint",
-            "contactType": "personal email",
-            "email": "kaydennpierce01@gmail.com"
-        },
-        {
+            "contactType": "work",
+            "email": "mailto:kaydennpierce01@uky.edu"
+          },
+          {
+            "@type": "ContactPoint",
+            "contactType": "personal",
+            "email": "mailto:kaydennpierce01@gmail.com"
+          },
+          {
             "@type": "ContactPoint",
             "contactType": "phone",
-            "telephone": "502-220-2950"
-        },
-        {
-            "@type": "ContactPoint",
-            "contactType": "work phone",
-            "telephone": "(800) 928-2287"
-        }
-    ],
-    "sameAs": [
-        "mailto:kaydennpierce01@uky.edu",
-        "mailto:kaydennpierce01@gmail.com"
-    ]
+            "telephone": "+1-502-220-2950"
+          }
+        ]
+      }
     }
     </script>
 
@@ -71,12 +68,14 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main itemscope itemtype="https://schema.org/Person">
+        <meta itemprop="name" content="Kayden Pierce">
+
         <section>
             <h2>About This Page</h2>
             <p>
@@ -109,31 +108,39 @@
                 <tbody>
                     <tr>
                         <th scope="row">School / Work Email</th>
-                        <td>kaydennpierce01@uky.edu</td>
+                        <td><a href="mailto:kaydennpierce01@uky.edu" itemprop="email">kaydennpierce01@uky.edu</a></td>
                         <td>Best for school or professional communication</td>
                     </tr>
 
                     <tr>
                         <th scope="row">Personal Email</th>
-                        <td>kaydennpierce01@gmail.com</td>
+                        <td><a href="mailto:kaydennpierce01@gmail.com">kaydennpierce01@gmail.com</a></td>
                         <td>General questions or personal contact</td>
                     </tr>
 
                     <tr>
                         <th scope="row">Personal Phone</th>
-                        <td>502-220-2950</td>
+                        <td><a href="tel:+15022202950" itemprop="telephone">502-220-2950</a></td>
                         <td>Direct contact when needed</td>
                     </tr>
 
                     <tr>
                         <th scope="row">Work Phone</th>
-                        <td>(800) 928-2287</td>
+                        <td><a href="tel:+18009282287">800-928-2287</a></td>
                         <td>UK Athletics related matters</td>
                     </tr>
 
                     <tr>
                         <th scope="row">Work Address</th>
-                        <td>338 Lexington Ave, Lexington, KY 40508</td>
+                        <td itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+                            <span itemprop="name">UK Athletics</span><br>
+                            <span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                                <span itemprop="streetAddress">338 Lexington Ave</span>,
+                                <span itemprop="addressLocality">Lexington</span>,
+                                <span itemprop="addressRegion">KY</span>
+                                <span itemprop="postalCode">40508</span>
+                            </span>
+                        </td>
                         <td>Primary workplace location</td>
                     </tr>
                 </tbody>
@@ -143,7 +150,7 @@
         <section>
             <h2>Future Form Idea</h2>
             <p>
-                A future version of this site could include a contact form that collects a visitors
+                A future version of this site could include a contact form that collects a visitor’s
                 name, email address, and message. This would make communication easier and allow users
                 to interact with the site instead of only reading information.
             </p>
